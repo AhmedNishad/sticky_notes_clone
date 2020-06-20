@@ -1,6 +1,6 @@
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
   }
   
   /* Track */
@@ -16,4 +16,10 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+  *{
+      font-family: 'Lato', sans-serif;
   }

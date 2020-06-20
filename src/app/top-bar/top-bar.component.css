@@ -1,0 +1,30 @@
+.top-bar{
+    -webkit-app-region: drag;
+    height: 30px;
+    background: rgba(245, 226, 144, 0.788);
+}
+
+.top-bar:hover{
+    background: rgba(253, 224, 93, 0.952);
+}
+
+.top-bar button{
+    -webkit-app-region: no-drag;
+}
+
+#close{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+button{
+    border: 0;
+    font-size: larger;
+    font-weight: bold;
+    background: rgba(153, 153, 153, 0);
+}
+
+button:hover{
+    background: rgba(153, 153, 153, 0.63);
+}

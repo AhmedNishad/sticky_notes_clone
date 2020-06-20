@@ -1,0 +1,5 @@
+<div class="list-element" (click)="openNote()">
+    <!-- <h5>{{ note.title }}  </h5> -->
+    <span id="created">{{note.createdOn | date:'mediumDate'}}</span>
+    <p id="body">{{ note.body }}</p>
+</div>

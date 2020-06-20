@@ -1,0 +1,6 @@
+
+<app-top-bar [note]="null"></app-top-bar>
+<div>
+    <h4>Sticky Notes</h4>
+    <app-note *ngFor="let note of notes" [note]="note"></app-note>
+</div>
